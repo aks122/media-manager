@@ -1,0 +1,101 @@
+.innerNav {
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12vh;
+}
+
+
+
+.menuSec {
+    margin-left: 1.5rem;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.flex div {
+    padding-right: 0.5rem;
+}
+
+.uName {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.folderCreated {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inFold {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.btnUpload {
+    width: 100%;
+    height: 3.5rem;
+}
+
+
+.btnUpload button {
+    width: 90%;
+    height: 100%;
+    background: #F29638;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.flexstate div:last-child {
+    margin-left: 1rem;
+}
+
+.flexFol {
+    display: flex;
+}
+
+.innerFlex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.share {
+    height: 40px;
+    width: 116px;
+    margin-right: 32px;
+}
+
+.share button {
+    border-radius: 10px;
+    background: #0057E0;
+    box-shadow: 0px 10px 17px 8px rgba(19, 98, 252, 0.10);
+    width: 100%;
+    height: 100%;
+    border: none;
+}

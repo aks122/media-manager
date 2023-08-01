@@ -1,0 +1,266 @@
+.wrapperOfModal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 100;
+  }
+  
+  .innnerModal {
+    width: 25%;
+    height: 75%;
+  }
+  
+  .innnerModalcreate {
+    width: 30%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* .innnerModalcreatefol {
+    width: 30%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .innerForm1 {
+    width: 90%;
+    height: 90%;
+  }
+  
+  .innerForm1Fol {
+    width: 90%;
+    height: 80%;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1rem;
+  }
+  
+  *:focus {
+    outline: none;
+  }
+  
+  .innerForm1Fol div:not(:first-child) {
+    margin-top: 1.5rem;
+  }
+  
+  .innerForm div {
+    margin-top: 1rem;
+  }
+  
+  .Cross {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 1rem;
+    left: 12px;
+  }
+  
+  .Cross button {
+    border-radius: 100%;
+    background-color:
+      #E75151;
+    border: none;
+    color: white;
+    height: 30px;
+    cursor: pointer;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .chng {
+    font-weight: 900;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .imagesource {
+    width: 100%;
+    height: 140px;
+    cursor: pointer;
+    border-radius: 12px;
+  
+  }
+  
+  .imagesourcevideo {
+    width: 100%;
+    height: 140px;
+    cursor: pointer;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  .imagesourcevideo video {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .contentCreator {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color: white;
+  
+  }
+  
+  .innerContent {
+    width: 90%;
+  }
+  
+  .mainImage {
+    margin: 10% 6%;
+    border-radius: 12px;
+    /* box-shadow: 5px 5px 5px gray; */
+    cursor: pointer;
+  }
+  
+  .mainImage:hover {
+    transform: scale(1.05, 1.05);
+    /* box-shadow: 9px 5px 5px gray; */
+  }
+  
+  .imagesource img {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  
+  }
+  
+  .innerGridR {
+    height: 72vh;
+    overflow-y: scroll;
+  }
+  
+  .hovernow:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  .iconsModal {
+    position: absolute;
+    z-index: 100;
+    right: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .imgModal {
+    width: 500px;
+    height: 500px;
+    z-index: -1;
+    margin-left: -24px;
+  }
+  
+  .imgModal img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .innerModalImg {
+    width: 95%;
+  
+  }
+  
+  :where(.css-dev-only-do-not-override-1wazalj).ant-modal .ant-modal-content {
+    position: relative;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+    pointer-events: auto;
+    padding: 0px;
+  }
+  
+  :where(.css-dev-only-do-not-override-1wazalj).ant-modal .ant-modal-close-x {
+    display: none;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 22px;
+    justify-content: center;
+    text-transform: none;
+    text-rendering: auto;
+  }
+  
+  :where(.css-dev-only-do-not-override-1wazalj).ant-modal .ant-modal-close {
+    display: none;
+    position: absolute;
+    top: 38px;
+    inset-inline-end: 17px;
+    z-index: 1010;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.45);
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+    background: transparent;
+    border-radius: 4px;
+    width: 22px;
+    height: 22px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: color 0.2s, background-color 0.2s;
+  }
+  
+  .innerModalImg>div {
+    padding-right: 0.5rem;
+  }
+  :where(.css-dev-only-do-not-override-txh9fw).ant-modal .ant-modal-content {
+    position: relative;
+    background-color: #ffffff;
+    background-clip: padding-box;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+    pointer-events: auto;
+    padding: 0px 24px;
+}
+:where(.css-dev-only-do-not-override-txh9fw).ant-modal .ant-modal-close {
+  position: absolute;
+  top: -15px;
+  color: white;
+  inset-inline-end: 17px;
+  z-index: 1010;
+  padding: 0;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+  background: transparent;
+  border-radius: 10px;
+  width: 22px;
+  height: 22px;
+  border: 0;
+  outline: 0;
+  right: -10px;
+  background: red;
+  transition: color 0.2s,background-color 0.2s;
+}

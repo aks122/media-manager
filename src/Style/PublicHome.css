@@ -1,0 +1,12 @@
+.wrapperPub {
+    background: url("../Assests/backgroundPic.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.media {
+    font-family: 'Rammetto One', cursive;
+    font-size: 22px;
+    color: linear-gradient(#0C92D0, #223C8C);
+}

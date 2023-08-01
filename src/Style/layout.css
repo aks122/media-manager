@@ -1,0 +1,122 @@
+.wrapperLayout {
+    display: flex;
+    width: 100%;
+    height: 79vh;
+}
+
+.leftContent {
+    height: 100%;
+    position: sticky;
+    top: 24vh;
+    left: 0;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rightContent {
+    width: 75%;
+    display: flex;
+    height: 82vh;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 26px 0px 0px 0px;
+    background: #F0F0F5;
+}
+
+
+.leftCreatia {
+    margin: 26px 0;
+    cursor: pointer;
+}
+
+.leftInnerCont {
+    padding-left: 2rem;
+}
+
+.FooterContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.Upload {
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+
+}
+
+.Upload button {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background-color: white;
+    color: royalblue;
+    border: none;
+    cursor: pointer;
+
+}
+
+input[type=file] {
+    width: 200px;
+    max-width: 100%;
+    color: #444;
+    padding: 5px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #555;
+    opacity: 0.8;
+}
+
+input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: #084cdf;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+}
+
+.docBox {
+    cursor: pointer;
+}
+
+.NoDatacontent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shareComponent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 78vh;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.uploadnow {
+    box-sizing: border-box;
+}
+
+
+.ModalImg {
+    width: 6rem;
+    height: 6rem;
+    cursor: pointer;
+}
+
+.ModalImg>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}

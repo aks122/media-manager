@@ -1,0 +1,131 @@
+.Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #0d6deb;
+}
+
+.innerWrapper {
+    display: flex;
+    width: 90%;
+    height: 85%;
+    border: 1px solid royalblue;
+    border-radius: 32px;
+    background: #FFFFFF;
+}
+
+.leftDiv {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.rightdiv {
+    width: 55%;
+    height: 100%;
+    border-bottom-right-radius: 32px;
+}
+
+.rightdiv img {
+    width: 100%;
+    height: 100%;
+}
+
+.innerDiv {
+    height: 75%;
+    width: 70%;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error {
+    color: red;
+}
+
+.innerDivsign {
+    height: 85%;
+    width: 80%;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.innerDeep {
+    width: 80%;
+    height: 90%;
+}
+
+.Login {
+    color: #0057E0;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Playfair Display;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px; /* 116.667% */
+    letter-spacing: -1.34px;
+}
+
+.Email {
+    width: 95%;
+    height: 54px;
+    background: #EFEFEF;
+    border-radius: 14px;
+    border: none;
+    padding-left: 5%;
+}
+
+.formContent {
+    margin-top: 20px;
+}
+
+.formContent div {
+    margin-top: 10px;
+}
+
+.forget {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    width: 100%;
+    height: 43px;
+    cursor: pointer;
+
+}
+
+.btn button {
+    width: 100%;
+    height: 100%;
+    background: #0851B1;
+    box-shadow: 0px 10px 17px 8px rgba(19, 98, 252, 0.2);
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.lastConten {
+    text-align: center;
+}
+
+.singup {
+    color: #0057E0;
+    font-family: Gilroy-Bold;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
